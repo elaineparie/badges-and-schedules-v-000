@@ -16,4 +16,8 @@ def assign_rooms(names)
       names.each_with_index do |name, index|
   "Hello, #{name}! You'll be assigned to room #{index}!"
 end
+names.collect do
+end
+end
+
 end
