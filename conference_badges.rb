@@ -1,6 +1,6 @@
 # Write your code here.
 
-def conference_badges(names)
+def badge_maker(names)
   names.each do |name|
     "Hello, my name is #{name}."
   end
