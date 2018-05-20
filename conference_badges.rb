@@ -18,4 +18,4 @@ def assign_rooms(names, room)
       room[room] = index }
   "Hello, #{name}! You'll be assigned to room #{room}!"
 end
-end 
+end
