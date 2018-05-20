@@ -18,5 +18,6 @@ def assign_rooms(names)
   names.collect do
       "Hello, #{name}! You'll be assigned to room #{index}!"
     end
+    "Hello, #{name}! You'll be assigned to room #{index}!"
 end
 end
