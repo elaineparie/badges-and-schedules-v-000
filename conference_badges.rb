@@ -13,7 +13,7 @@ def batch_badge_creator(names)
 end
 
 def assign_rooms(names, room)
-  names.collect do |name|
+  names.collect do |name, room|
   "Hello, #{name}! You'll be assigned to room #{room}!"
 end
 end
