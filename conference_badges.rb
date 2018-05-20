@@ -22,5 +22,4 @@ def printer
   batch_badge_creator(names).collect do |badges|
     puts badges
   end
-  assign_rooms(names)
   end
